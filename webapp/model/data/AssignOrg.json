@@ -1,0 +1,33 @@
+[
+    {
+      "OrgAtt": "Org Attribute - 1",
+      "OrgValue": "Org Value - 1",
+      "EffectFrom": "03/31/2023",
+      "EffectTo": "03/31/2023"
+    },
+    {
+      "OrgAtt": "Org Attribute - 2",
+      "OrgValue": "Org Value - 2",
+      "EffectFrom": "03/31/2023",
+      "EffectTo": "03/31/2023"
+    },
+    {
+      "OrgAtt": "Org Attribute - 3",
+      "OrgValue": "Org Value - 3",
+      "EffectFrom": "03/31/2023",
+      "EffectTo": "03/31/2023"
+    },
+    {
+      "OrgAtt": "Org Attribute - 3",
+      "OrgValue": "Org Value - 3",
+      "EffectFrom": "03/31/2023",
+      "EffectTo": "03/31/2023"
+    },
+    {
+      "OrgAtt": "Org Attribute - 4",
+      "OrgValue": "Org Value - 4",
+      "EffectFrom": "03/31/2023",
+      "EffectTo": "03/31/2023"
+    }
+  ]
+
