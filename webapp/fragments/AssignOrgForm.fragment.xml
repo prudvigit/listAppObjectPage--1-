@@ -36,11 +36,11 @@
                         <core:Item text="Team" key="Team" />
                     </items>
                 </Select>
-                <Label text="Effective Dates" />
+                <!-- <Label text="Effective Dates" />
                 <HBox>
                     <DatePicker id="DP_1" placeholder="Enter Effective Date from" change="handleChange" class="sapUiSmallMarginBottom" />
                     <DatePicker id="DP_2" placeholder="Enter Effective Date to" change="handleChange" class="sapUiSmallMarginBottom" />
-                </HBox>
+                </HBox> -->
             </f:content>
         </f:SimpleForm>
         <buttons>

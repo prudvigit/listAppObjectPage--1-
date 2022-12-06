@@ -308,8 +308,8 @@ sap.ui.define(
         onAddWorkItem: function(oEvent){
           Fragment.byId(this._getID("AE"), "idItem").setValue("");
           Fragment.byId(this._getID("AE"), "idNumber").setValue("");
-          Fragment.byId(this._getID("AE"), "DP1").setValue("");
-          Fragment.byId(this._getID("AE"), "DP2").setValue("");
+          // Fragment.byId(this._getID("AE"), "DP1").setValue("");
+          // Fragment.byId(this._getID("AE"), "DP2").setValue("");
           Fragment.byId(this._getID("AE"), "idAbsType").setValue("");
           this._getAddEditForm().open();
         },
@@ -320,8 +320,8 @@ sap.ui.define(
         onAOrgForm: function(oEvent){
           Fragment.byId(this._getID("AO"), "idAtt").setValue("");
           // Fragment.byId(this._getID("AO"), "idOrgValue").setSelectedKey("");
-          Fragment.byId(this._getID("AO"), "DP_1").setValue("");
-          Fragment.byId(this._getID("AO"), "DP_2").setValue("");
+          // Fragment.byId(this._getID("AO"), "DP_1").setValue("");
+          // Fragment.byId(this._getID("AO"), "DP_2").setValue("");
           this._getAssignOrgForm().open();
         },
         onAssignCancel: function(oEvent){
@@ -333,8 +333,8 @@ sap.ui.define(
           this._getAddEditForm().open();
           Fragment.byId(this._getID("AE"), "idItem").setValue(sData.Name);
           Fragment.byId(this._getID("AE"), "idNumber").setValue(sData.WorkOrder);
-          Fragment.byId(this._getID("AE"), "DP1").setValue(sData.EffectiveFrom);
-          Fragment.byId(this._getID("AE"), "DP2").setValue(sData.EffectiveTo);
+          // Fragment.byId(this._getID("AE"), "DP1").setValue(sData.EffectiveFrom);
+          // Fragment.byId(this._getID("AE"), "DP2").setValue(sData.EffectiveTo);
           Fragment.byId(this._getID("AE"), "idAbsType").setValue(sData.AbsType);
 
         },
@@ -345,8 +345,8 @@ sap.ui.define(
           this._getAssignOrgForm().open();
           Fragment.byId(this._getID("AO"), "idAtt").setValue(sData.OrgAtt);
           Fragment.byId(this._getID("AO"), "idOrgValue").setValue(sData.OrgValue);
-          Fragment.byId(this._getID("AO"), "DP_1").setValue(sData.EffectFrom);
-          Fragment.byId(this._getID("AO"), "DP_2").setValue(sData.EffectTo);
+          // Fragment.byId(this._getID("AO"), "DP_1").setValue(sData.EffectFrom);
+          // Fragment.byId(this._getID("AO"), "DP_2").setValue(sData.EffectTo);
         }
       }
     );
